@@ -246,13 +246,13 @@ R^2 Score: 0.711
 
 - In overall model comparison, will choose Decision Tree model. It gives reasonable precision, recall, and F1-scores across the majority of classes, making it a more robust choice compared to the Random Forest and Linear Regression models.
 
-## Recommendation and Analysis
+## Analysis Outcome
 
 - Visualize common words in Product_name with rating 3
 
 ![image](https://github.com/user-attachments/assets/d39b0374-5809-41ad-9638-3cc2b6410cae)
 
-- Top 5 rating 3 products with short reviews
+Top 5 rating 3 products with short reviews
 
 ![image](https://github.com/user-attachments/assets/9646373f-bdf4-4746-a724-aceace4166b7)
  
@@ -266,10 +266,28 @@ R^2 Score: 0.711
     
     5. Alpha Beta Extra Strength Daily Peel pads
 
-- "Anti-aging, eye cream, cleansing wipes, and moisturizing products”.
+"Anti-aging, eye cream, cleansing wipes, and moisturizing products”
   - These products consistently earned a rating of 3, indicating areas where customer satisfaction could be improved. Sephora needs to prioritize improvements to these products to better meet customer expectations.
 
-- We analyzed customer reviews, ratings from 1 to 5, author recommendations 0(False) & 1(True), long, short reviews relation with ratings.We observed that rating 5 is given highest with 63% compared to other ratings.84% of products are recommended(True) by authors. After analyzing datetime with recommendations , Sephora achieved recommended reviews over 80% through the years 2017 to 2023. However, it’s crucial to address the products that consistently received lower ratings, particularly those related to "anti-aging, eye cream, cleansing wipes, and moisturizing products".These products consistently earned a rating of 3, indicating areas where customer satisfaction could be improved. Sephora needs to prioritize improvements to these products to better meet customer expectations.
+*Short and long review analysis*
+--
+
+ - Top 20 brands associated with short reviews & rating 5
+
+![image](https://github.com/user-attachments/assets/44078691-3ddc-4c28-ae41-0a0579c6fac3)
+
+- Hypothesis: Longer reviews with detailed feedback are more likely to correlate with 
+higher ratings than shorter reviews.
+
+- Result: Short reviews are linked to a rating of 5 showing that even brief reviews can express high satisfaction.
+
+  - Percentage of long reviews with rating 5: 92.55% 
+  - Percentage of short reviews with rating 5 : 7.45% 
+
+
+# Recommendation
+
+-  We analyzed customer reviews, ratings from 1 to 5, author recommendations 0(False) & 1(True), long, short reviews relation with ratings.We observed that rating 5 is given highest with 63% compared to other ratings.84% of products are recommended(True) by authors. After analyzing datetime with recommendations , Sephora achieved recommended reviews over 80% through the years 2017 to 2023. However, it’s crucial to address the products that consistently received lower ratings, particularly those related to "anti-aging, eye cream, cleansing wipes, and moisturizing products".These products consistently earned a rating of 3, indicating areas where customer satisfaction could be improved. Sephora needs to prioritize improvements to these products to better meet customer expectations.
  -  Throughout the project, we encountered challenges related to the large dataset, which led to memory errors and issues with mixed data types. Despite these challenges, the findings align with our business objectives and provide a solid foundation for enhancing customer satisfaction, refining product offerings, and driving Sephora's continued growth.
 
 
