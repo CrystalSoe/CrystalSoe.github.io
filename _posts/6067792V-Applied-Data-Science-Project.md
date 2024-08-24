@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Name
+author: Soe Lai Nwe
 title: "Applied Data Science Project Documentation"
 categories: ITD214
 ---
