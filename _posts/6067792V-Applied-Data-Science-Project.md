@@ -294,26 +294,20 @@ higher ratings than shorter reviews.
 # AI Ethics
 
 - Privacy
-  - In the data set, it didn't mention the names of the person who reviewed the product.It is only with the id code  for each review.
-    It ensures that individuals' personal data is protected.So our data set is under privacy.
-    
+  - In our dataset, the reviewers' names are not included; instead, each review is associated with a unique ID code. This approach ensures that individuals' personal data remains protected, thereby upholding privacy standards. Consequently, our dataset adheres to privacy principles.
+
 - Fairness
-  - To overcome any biases, we use SMOTE (Synthetic Minority Oversampling Technique) to training set for data balancing.
-    It involves checking for and mitigating biases in data and model outcomes.
- 
+  - To mitigate potential biases, we employed SMOTE (Synthetic Minority Over-sampling Technique) to balance the training data. By addressing class imbalances, we ensure that the model outcomes are fair and equitable across different classes. This approach directly contributes to the fairness of our analysis.
+
 - Accuracy
-  - The decision tree model gives reasonable precision, recall, and F1-scores across the majority of classes.
-    However, the model can still improve by adding tree depth and samples of leaf for better accuracy.In conclusion, our model provides an accuracy 68% ,fair and reliable for Sephoras' rating prediction.
- 
+  - The decision tree model delivers reasonable precision, recall, and F1-scores across most classes. While the model currently achieves a 68% accuracy, there is room for improvement by fine-tuning parameters such as tree depth and minimum samples per leaf. Overall, the model demonstrates fair and reliable performance for predicting Sephora product ratings.
+
 - Accountability
-  - As mentioned in the challenges we faced, the data set is imbalanced and rating 5 is given much 63% compared to other ratings.
+  - One of the primary challenges we encountered was the dataset's imbalance, with 63% of the ratings being 5. We have documented this issue and taken steps, such as applying SMOTE, to address it. This level of transparency and corrective action highlights our commitment to accountability in our modeling process.
 
 - Transparency
-
-Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+  - We adhered to the CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology throughout this project, documenting each step to ensure the process is understandable, explainable, and transparent to users and stakeholders. This structured approach enhances the trustworthiness of our project and makes it easier to communicate findings to all relevant parties.
 
 ## Source Codes and Datasets
-Upload your model files and dataset into a GitHub repo and add the link here.
+Upload your model files and dataset into a GitHub repo and add the link here
 https://github.com/CrystalSoe/itd214
