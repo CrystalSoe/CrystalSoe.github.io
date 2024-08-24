@@ -50,18 +50,31 @@ File size: 154 MB                           | Data Type: String, Integers and fl
 - Longer reviews with detailed feedback are more likely to correlate with higher ratings than shorter reviews.
 
 # Project Plan 
-![project plan](https://github.com/user-attachments/assets/451e39b0-6180-4db2-babb-175de82e86cb)
+
+![project plan](https://github.com/user-attachments/assets/02cc02cc-cf27-4b12-97e9-f7dc89226ce9)
 
 ## Data Preparation
-
-- Remove duplicates
-
-![duplicates](https://github.com/user-attachments/assets/bdb51279-7165-4bb0-a2e7-053dc51e3106)
 
 - Remove unnecessary columns for analysis
 
 -Various product parameters (skin tone,eye_color,skin_type,
 hair_color)
+
+- Remove duplicates
+
+![duplicates](https://github.com/user-attachments/assets/bdb51279-7165-4bb0-a2e7-053dc51e3106)
+
+- Remove NaV value columns
+
+remove helpfulness col: as 51% of data is NaN value
+
+remove is_recommended NaN value columns
+
+![null value](https://github.com/user-attachments/assets/6099f46a-f07d-463f-a3be-172de5bdeeee)
+
+# Summary of data
+
+![summary of data](https://github.com/user-attachments/assets/8284c912-2a61-416c-a5e5-fb70a53114ee)
 
 
 ### Modelling
