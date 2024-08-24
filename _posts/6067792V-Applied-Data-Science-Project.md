@@ -19,7 +19,6 @@ Since its inception in 1969 in Paris, Sephora has expanded globally and revoluti
 Its dedication to empowering customers through personalized service and expert advice is central to Sephora's success. Ongoing competition and market saturation challenges mean Sephora must constantly distinguish itself from other competitors through its unique brand identity and offering. Through innovations with digital tools and enhanced personalized recommendations based on customer preferences, it remains dedicated to its mission to elevate the beauty retail experience and lead in the industry. 
 This project aims to gather valuable insights into customer satisfaction and sentiment by analysing helpful reviews and features. These include identifying best-selling items, product effectiveness through reviews and ratings, and a recommendation system for cross-selling to increase sales and customer satisfaction.   
 
-## Project Background
 Business Objective
 - Analyzing ratings, author recommendations, pos, neg feedback count and reviews to identify trends, patterns and address areas with lower ratings.
 
