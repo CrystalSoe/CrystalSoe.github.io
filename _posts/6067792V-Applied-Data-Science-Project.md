@@ -15,6 +15,10 @@ Data Mining Goal
 - Explore ratings, feedback count, author recommendation to identify the trends. 
 - Analyzing long and short reviews association with ratings and filter the products to improve customer experience.
 
+Hypothesis
+- Longer reviews with detailed feedback are more likely to correlate with higher ratings than shorter reviews.
+
+
 ## Work Accomplished
 Document your work done to accomplish the outcome
 
