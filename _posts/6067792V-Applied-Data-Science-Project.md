@@ -6,14 +6,14 @@ categories: ITD214
 ---
 ## Project Background
 Business Objective
-Analyzing ratings, author recommendations, pos, neg feedback count and reviews to identify trends, patterns and address areas with lower ratings.
+- Analyzing ratings, author recommendations, pos, neg feedback count and reviews to identify trends, patterns and address areas with lower ratings.
 
 Success Criteria
-Enhance customer satisfaction by analyzing ratings (3) and identifying areas for improvement
+- Enhance customer satisfaction by analyzing ratings (3) and identifying areas for improvement
 
 Data Mining Goal
--Explore ratings, feedback count, author recommendation to identify the trends. 
--Analyzing long and short reviews association with ratings and filter the products to improve customer experience.
+- Explore ratings, feedback count, author recommendation to identify the trends. 
+- Analyzing long and short reviews association with ratings and filter the products to improve customer experience.
 
 ## Work Accomplished
 Document your work done to accomplish the outcome
