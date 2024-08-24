@@ -309,5 +309,5 @@ higher ratings than shorter reviews.
   - We adhered to the CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology throughout this project, documenting each step to ensure the process is understandable, explainable, and transparent to users and stakeholders. This structured approach enhances the trustworthiness of our project and makes it easier to communicate findings to all relevant parties.
 
 ## Source Codes and Datasets
-GitHub link https://github.com/CrystalSoe/itd214
+GitHub link [https://github.com/CrystalSoe/itd214](https://github.com/CrystalSoe/6067792V_idt214-project)
 
