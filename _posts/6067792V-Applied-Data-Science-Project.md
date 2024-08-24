@@ -23,7 +23,7 @@ This project aims to gather valuable insights into customer satisfaction and sen
 
 # About data set
 
-- The data set was collected from Kaggle https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews
+- The data set was collected from Kaggle https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews 
 - Contains information about over 8,000 beauty products from Sephora online store. Including product, brand names, prices, ingredients, ratings and all other features. 
 - More than a million  user reviews on over 2,000 products on all products from the Skincare category, including user appearances, and review ratings by other users.
 
@@ -272,6 +272,7 @@ R^2 Score: 0.711
 
 
 ## AI Ethics
+Privacy 
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
