@@ -1,6 +1,7 @@
 ---
 Layout: post
 Author: Soe Lai Nwe
+Student ID : 6067792V
 Title: "Applied Data Science Project Documentation"
 Categories: ITD214
 ---
@@ -15,6 +16,8 @@ Categories: ITD214
 - Evaluation
 - Analysis outcome
 - Recommendations
+- AI Ethics
+- Source code and data sets
 
 ## Background & Business Goal
 Since its inception in 1969 in Paris, Sephora has expanded globally and revolutionized beauty retailing with a focus on luxury and expertise. It offers a wide selection of skincare products and solutions, ranging from makeup, skincare, hair care and beauty tools.  
