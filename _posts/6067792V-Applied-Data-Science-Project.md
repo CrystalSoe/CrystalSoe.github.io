@@ -53,7 +53,7 @@ File size: 154 MB                           | Data Type: String, Integers and fl
 
 ![project plan](https://github.com/user-attachments/assets/02cc02cc-cf27-4b12-97e9-f7dc89226ce9)
 
-### Data Preparation & Transformation
+# Data Preparation & Transformation
 
 1. Select
 2. Clean
@@ -118,7 +118,7 @@ remove is_recommended NaN value columns
 
 -define 100 words as long review and calculate each review length and creat review length and review type columns
 
-### Modelling
+# Modelling
 1. Select Modeling Techniques
 2. Generate Test Design
 3. Build Model
@@ -209,7 +209,7 @@ Mean Squared Error: 0.383
 
 R^2 Score: 0.711
 
-### Evaluation
+# Evaluation
 
 1. Random Forest Model
 
@@ -234,15 +234,42 @@ R^2 Score: 0.711
    
 ![image](https://github.com/user-attachments/assets/a672cb85-94b6-4c70-bf24-108e144c63d2)
 
-  - In class 1, most points are clustered near to 1 but some are near to class 2.
+    - In class 1, most points are clustered near to 1 but some are near to class 2.
   
-  - In class 2. predictions are close to class 2 but some are clustered above and below class2.
+    - In class 2. predictions are close to class 2 but some are clustered above and below class2.
 
-  - Class 3 and 4 are poorly predicted and class 5 is the best prediction among all classes.
+    - Class 3 and 4 are poorly predicted and class 5 is the best prediction among all classes.
+
+# Model comparison
+
+- In overall model comparison, will choose Decision Tree model. It gives reasonable precision, recall, and F1-scores across the majority of classes, making it a more robust choice compared to the Random Forest and Linear Regression models.
 
 ## Recommendation and Analysis
 
-- In overall model comparison, will choose Decision Tree model. It gives reasonable precision, recall, and F1-scores across the majority of classes, making it a more robust choice compared to the Random Forest and Linear Regression models.
+- Visualize common words in Product_name with rating 3
+
+![image](https://github.com/user-attachments/assets/d39b0374-5809-41ad-9638-3cc2b6410cae)
+
+- Top 5 rating 3 products with short reviews
+
+![image](https://github.com/user-attachments/assets/9646373f-bdf4-4746-a724-aceace4166b7)
+ 
+    1. Lip Sleeping Mask Intense Hydration with Vitamin C
+    
+    2. Cleansing & Exfloliating wipes
+  
+    3. Saliccylic Acid Acne Healing Dots
+    
+    4. Priotini Polypeptide Firming Refillable Moisturize
+    
+    5. Alpha Beta Extra Strength Daily Peel pads
+
+- "Anti-aging, eye cream, cleansing wipes, and moisturizing products”.
+  - These products consistently earned a rating of 3, indicating areas where customer satisfaction could be improved. Sephora needs to prioritize improvements to these products to better meet customer expectations.
+
+
+
+
 
 ## AI Ethics
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
