@@ -1,7 +1,8 @@
-layout: post
-author: Soe Lai Nwe
-title: "Applied Data Science Project Documentation"
-categories: ITD214
+---
+Layout: post
+Author: Soe Lai Nwe
+Title: "Applied Data Science Project Documentation"
+Categories: ITD214
 ---
 
 ## Contents
@@ -165,7 +166,7 @@ Categorical   | 'author_id', 'review_type', 'merged_review'                |
 
 4.Assessment 
 
-- Random Forest Model
+1. Random Forest Model
 
 ![image](https://github.com/user-attachments/assets/4955302e-2a11-45f4-a430-25820eea4b63)
 
@@ -187,7 +188,7 @@ After optimizing,result as below
      Class 3 still suffers from low recall and precision, suggests that the model may need further adjustments or different techniques to improve performance for 
      this class.
 
-- Decision Tree Model
+2. Decision Tree Model
 
 ![image](https://github.com/user-attachments/assets/4b8fa9da-3b27-46a8-a381-5d3bb7650fb2)
 
@@ -200,7 +201,7 @@ After optimizing,result as below
 - Model result review
   - Accuracy is imrproved to 0.69 after adjust tree depth and sample of leaf.
 
-- Linear Regression Model
+3. Linear Regression Model
 
 ![image](https://github.com/user-attachments/assets/13b3ab80-98f2-4f55-a9f9-f7628f6f8b0a)
 
@@ -240,9 +241,8 @@ R^2 Score: 0.711
   - Class 3 and 4 are poorly predicted and class 5 is the best prediction among all classes.
 
 ## Recommendation and Analysis
-Explain the analysis and recommendations
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+- In overall model comparison, will choose Decision Tree model. It gives reasonable precision, recall, and F1-scores across the majority of classes, making it a more robust choice compared to the Random Forest and Linear Regression models.
 
 ## AI Ethics
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
