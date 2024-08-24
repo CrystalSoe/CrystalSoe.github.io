@@ -258,9 +258,9 @@ Top 5 rating 3 products with short reviews
  
     1. Lip Sleeping Mask Intense Hydration with Vitamin C
     
-    2. Cleansing & Exfloliating wipes
+    2. Cleansing & Exfoliating wipes
   
-    3. Saliccylic Acid Acne Healing Dots
+    3. Salicylic Acid Acne Healing Dots
     
     4. Priotini Polypeptide Firming Refillable Moisturize
     
