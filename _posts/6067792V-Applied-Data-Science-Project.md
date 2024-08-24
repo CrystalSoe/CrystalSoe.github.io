@@ -13,6 +13,8 @@ Categories: ITD214
 - Data Preparation & Transformation
 - Modelling
 - Evaluation
+- Analysis outcome
+- Recommendations
 
 ## Background & Business Goal
 Since its inception in 1969 in Paris, Sephora has expanded globally and revolutionized beauty retailing with a focus on luxury and expertise. It offers a wide selection of skincare products and solutions, ranging from makeup, skincare, hair care and beauty tools.  
@@ -267,6 +269,10 @@ R^2 Score: 0.711
 - "Anti-aging, eye cream, cleansing wipes, and moisturizing products”.
   - These products consistently earned a rating of 3, indicating areas where customer satisfaction could be improved. Sephora needs to prioritize improvements to these products to better meet customer expectations.
 
+- We analyzed customer reviews, ratings from 1 to 5, author recommendations 0(False) & 1(True), long, short reviews relation with ratings.We observed that rating 5 is given highest with 63% compared to other ratings.84% of products are recommended(True) by authors. After analyzing datetime with recommendations , Sephora achieved recommended reviews over 80% through the years 2017 to 2023. However, it’s crucial to address the products that consistently received lower ratings, particularly those related to "anti-aging, eye cream, cleansing wipes, and moisturizing products".These products consistently earned a rating of 3, indicating areas where customer satisfaction could be improved. Sephora needs to prioritize improvements to these products to better meet customer expectations.
+ -  Throughout the project, we encountered challenges related to the large dataset, which led to memory errors and issues with mixed data types. Despite these challenges, the findings align with our business objectives and provide a solid foundation for enhancing customer satisfaction, refining product offerings, and driving Sephora's continued growth.
+
+
 # AI Ethics
 
 - Privacy
@@ -278,8 +284,11 @@ R^2 Score: 0.711
     It involves checking for and mitigating biases in data and model outcomes.
  
 - Accuracy
-
-- Accountability 
+  - The decision tree model gives reasonable precision, recall, and F1-scores across the majority of classes.
+    However, the model can still improve by adding tree depth and samples of leaf for better accuracy.In conclusion, our model provides an accuracy 68% ,fair and reliable for Sephoras' rating prediction.
+ 
+- Accountability
+  - As mention in the challenges we faced, the data set is imbalanced and prove that rating 5 is given much than other ratings.
 
 - Transparency
 
