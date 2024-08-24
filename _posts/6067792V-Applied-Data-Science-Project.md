@@ -267,12 +267,22 @@ R^2 Score: 0.711
 - "Anti-aging, eye cream, cleansing wipes, and moisturizing products”.
   - These products consistently earned a rating of 3, indicating areas where customer satisfaction could be improved. Sephora needs to prioritize improvements to these products to better meet customer expectations.
 
+# AI Ethics
 
+- Privacy
+  - In the data set, it didn't mention the names of the person who reviewed the product.It is only with the id code  for each review.
+    It ensures that individuals' personal data is protected.So our data set is under privacy.
+    
+- Fairness
+  - To overcome any biases, we use SMOTE (Synthetic Minority Oversampling Technique) to training set for data balancing.
+    It involves checking for and mitigating biases in data and model outcomes.
+ 
+- Accuracy
 
+- Accountability 
 
+- Transparency
 
-## AI Ethics
-Privacy 
 Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
