@@ -306,7 +306,7 @@ higher ratings than shorter reviews.
     However, the model can still improve by adding tree depth and samples of leaf for better accuracy.In conclusion, our model provides an accuracy 68% ,fair and reliable for Sephoras' rating prediction.
  
 - Accountability
-  - As mention in the challenges we faced, the data set is imbalanced and prove that rating 5 is given much than other ratings.
+  - As mentioned in the challenges we faced, the data set is imbalanced and rating 5 is given much 63% compared to other ratings.
 
 - Transparency
 
