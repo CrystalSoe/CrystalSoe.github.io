@@ -81,7 +81,7 @@ submission time    | 2017 to 2023         |
 
 - Focus variables
 
- -ratings, is_recommended,  total_neg_feedback_count, total_pos_feedback_count, 
+  - ratings, is_recommended,  total_neg_feedback_count, total_pos_feedback_count, 
 submission_time, reviews
 
 2.Clean
@@ -146,9 +146,9 @@ Numerical     | 'is_recommended', 'Year', 'Month', 'Date', 'review_length' |
 Categorical   | 'author_id', 'review_type', 'merged_review'                |
 
 2.Generate Test Design
-- Sample a smaller subset of the data- to ensure a manageable and efficient testing process
+- Sample a smaller subset of the data to ensure a manageable and efficient testing process
   - Testing set size as 10% of overall data
-  - Shape: 96242 ,12
+  - Shape: 96242,12
  
 - Check Data Types: Identify which columns have mixed types
   - ensure that all categorical features are properly encoded into numeric values before training the model.
