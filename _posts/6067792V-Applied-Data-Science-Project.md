@@ -94,7 +94,7 @@ hair_color)
 
 ![duplicates](https://github.com/user-attachments/assets/bdb51279-7165-4bb0-a2e7-053dc51e3106)
 
-- Remove NaV value columns
+- Remove NaN value columns
 
 remove helpfulness col: as 51% of data is NaN value
 
@@ -122,6 +122,9 @@ remove is_recommended NaN value columns
 -construct a datetime value to be ready for further analysis
 
 -define 100 words as long review and calculate each review length and creat review length and review type columns
+
+![image](https://github.com/user-attachments/assets/c6d9e27e-bc25-40b0-88e9-a26c6bf56c29)
+
 
 # Modelling
 1. Select Modeling Techniques
