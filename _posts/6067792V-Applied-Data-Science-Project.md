@@ -294,8 +294,7 @@ higher ratings than shorter reviews.
 # Recommendation
 
 -  We analyzed customer reviews, ratings from 1 to 5, author recommendations 0(False) & 1(True), long, short reviews relation with ratings.We observed that rating 5 is given highest with 63% compared to other ratings.84% of products are recommended(True) by authors. After analyzing datetime with recommendations , Sephora achieved recommended reviews over 80% through the years 2017 to 2023. However, it’s crucial to address the products that consistently received lower ratings, particularly those related to "anti-aging, eye cream, cleansing wipes, and moisturizing products".These products consistently earned a rating of 3, indicating areas where customer satisfaction could be improved. Sephora needs to prioritize improvements to these products to better meet customer expectations.
- -  Throughout the project, we encountered challenges related to the large dataset, which led to memory errors and issues with mixed data types. Despite these challenges, the findings align with our business objectives and provide a solid foundation for enhancing customer satisfaction, refining product offerings, and driving Sephora's continued growth.
-
+ -  Throughout the project, we encountered challenges related to the large dataset, which led to memory errors and issues with mixed data types. Despite these challenges, the findings align with our business objectives and with this decision tree model, Sephora can create a solid foundation to predict rating which will aid in enhancing customer satisfaction, refining product offerings, and driving Sephora's continued growth.
 
 # AI Ethics
 
